@@ -1,0 +1,2292 @@
+2011/04/08 04:42:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'bluesheep'' in C:\wamp2\framework\db\CDbConnection.php:269
+Stack trace:
+#0 C:\wamp2\framework\db\CDbConnection.php(242): CDbConnection->open()
+#1 C:\wamp2\framework\db\CDbConnection.php(221): CDbConnection->setActive(true)
+#2 C:\wamp2\framework\base\CModule.php(372): CDbConnection->init()
+#3 C:\wamp2\framework\base\CModule.php(86): CModule->getComponent('db')
+#4 C:\wamp2\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\wamp2\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\wamp2\framework\gii\CCodeGenerator.php(149): CFormModel->__construct()
+#7 C:\wamp2\framework\gii\CCodeGenerator.php(61): CCodeGenerator->prepare()
+#8 C:\wamp2\framework\web\actions\CInlineAction.php(57): CCodeGenerator->actionIndex()
+#9 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#11 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#13 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('gii/crud')
+#14 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#15 C:\wamp2\www\index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/index.php/gii/crud
+2011/04/08 04:44:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/assets".' in C:\wamp2\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('gii/assets')
+#1 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\wamp2\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/gii/assets
+2011/04/08 04:44:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/assets/images".' in C:\wamp2\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('gii/assets/imag...')
+#1 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\wamp2\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/gii/assets/images/
+2011/04/08 05:21:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_sml.png
+2011/04/08 05:21:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:21:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:21:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:21:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_sml.png
+2011/04/08 05:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_sml.png
+2011/04/08 05:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:21:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:21:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_sml.png
+2011/04/08 05:21:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:21:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:21:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:21:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:21:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_sml.png
+2011/04/08 05:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:22:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:22:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_sml.png
+2011/04/08 05:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:23:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:23:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_sml.png
+2011/04/08 05:23:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:23:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:23:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:27:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:27:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:27:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_sml.png
+2011/04/08 05:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:27:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/main".' in C:\wamp2\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('layouts/main')
+#1 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\wamp2\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/layouts/main
+2011/04/08 05:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/images/logo.png".' in C:\wamp2\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('layouts/images/...')
+#1 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\wamp2\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/layouts/images/logo.png
+2011/04/08 05:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/images/facebook_sml.png".' in C:\wamp2\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('layouts/images/...')
+#1 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\wamp2\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/layouts/images/facebook_sml.png
+2011/04/08 05:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/images/twitter_sml.png".' in C:\wamp2\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('layouts/images/...')
+#1 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\wamp2\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/layouts/images/twitter_sml.png
+2011/04/08 05:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/images/twitter_footer.png".' in C:\wamp2\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('layouts/images/...')
+#1 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\wamp2\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/layouts/images/twitter_footer.png
+2011/04/08 05:27:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/images/facebook_footer.png".' in C:\wamp2\framework\web\CWebApplication.php:328
+Stack trace:
+#0 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('layouts/images/...')
+#1 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#2 C:\wamp2\www\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/index.php/layouts/images/facebook_footer.png
+2011/04/08 05:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_sml.png
+2011/04/08 05:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:37:43 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.basePathimages" is not defined.' in C:\wamp2\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp2\framework\base\CModule.php(88): CComponent->__get('basePathimages')
+#1 C:\wamp2\protected\views\layouts\main.php(30): CModule->__get('basePathimages')
+#2 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\protec...')
+#3 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\protec...', Array, true)
+#4 C:\wamp2\framework\web\widgets\CContentDecorator.php(78): CBaseController->renderFile('C:\wamp2\protec...', Array, true)
+#5 C:\wamp2\framework\web\widgets\CContentDecorator.php(56): CContentDecorator->decorate('<div class="con...')
+#6 C:\wamp2\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div class="con...')
+#7 C:\wamp2\framework\web\CBaseController.php(199): COutputProcessor->run()
+#8 C:\wamp2\framework\web\CBaseController.php(294): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp2\protected\views\layouts\column1.php(7): CBaseController->endContent()
+#10 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\protec...')
+#11 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\protec...', Array, true)
+#12 C:\wamp2\framework\web\CController.php(748): CBaseController->renderFile('C:\wamp2\protec...', Array, true)
+#13 C:\wamp2\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#15 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#16 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#17 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('index')
+#19 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/index')
+#20 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#21 C:\wamp2\www\index.php(13): CApplication->run()
+#22 {main} REQUEST_URI=/index.php/site/index
+2011/04/08 05:38:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:41:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:41:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:43:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:43:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:43:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:43:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 05:43:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 05:43:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:44:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 05:44:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 05:44:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 06:09:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_sml.png
+2011/04/08 06:09:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 06:09:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/08 06:09:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 06:09:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 06:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/log...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/logo.png
+2011/04/08 06:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_footer.png
+2011/04/08 06:18:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fac...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/facebook_footer.png
+2011/04/08 06:18:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/twi...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/twitter_sml.png
+2011/04/09 00:43:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "home".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('home')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('home')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/home')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/home
+2011/04/09 00:45:09 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in C:\wamp2\framework\web\CController.php:842
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('index', NULL, true)
+#1 C:\wamp2\www\protected\controllers\SiteController.php(32): CController->render('index')
+#2 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#3 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#4 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#7 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#8 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#9 C:\wamp2\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/index.php
+2011/04/09 00:45:34 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in C:\wamp2\framework\web\CController.php:842
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('index', NULL, true)
+#1 C:\wamp2\www\protected\controllers\SiteController.php(32): CController->render('index')
+#2 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#3 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#4 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#7 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#8 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#9 C:\wamp2\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/index.php
+2011/04/09 00:46:01 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in C:\wamp2\framework\web\CController.php:842
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('index', NULL, true)
+#1 C:\wamp2\www\protected\controllers\SiteController.php(32): CController->render('index')
+#2 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#3 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#4 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#7 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#8 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#9 C:\wamp2\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/index.php
+2011/04/09 00:48:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/onl...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/online_quote_btn.png
+2011/04/09 00:48:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/cha...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/champion.png
+2011/04/09 00:48:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/aug...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/augusta.png
+2011/04/09 00:48:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/bel...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/bella.png
+2011/04/09 00:48:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/anv...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/anvil.png
+2011/04/09 00:48:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/han...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/hanes.png
+2011/04/09 00:48:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/fru...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/fruit_o_loom.png
+2011/04/09 00:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/gil...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/gildan.png
+2011/04/09 00:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/jer...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/jerzees.png
+2011/04/09 00:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/spe...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/special_port_co.png
+2011/04/09 00:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "images".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('images')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('images')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/images/boy...')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/images/boy_shirt.jpg
+2011/04/09 02:29:14 [error] [exception.CException] exception 'CException' with message 'Property "SiteController._hasScripts" is not defined.' in C:\wamp2\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp2\framework\web\CClientScript.php(478): CComponent->__set('_hasScripts', true)
+#1 C:\wamp2\www\protected\views\site\index.php(3): CClientScript->registerScriptFile('/js/sliders.js', 1)
+#2 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#3 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', NULL, true)
+#4 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', NULL, true)
+#5 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('index', NULL, true)
+#6 C:\wamp2\www\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#8 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#9 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#10 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('index')
+#12 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/index')
+#13 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 C:\wamp2\www\index.php(13): CApplication->run()
+#15 {main} REQUEST_URI=/index.php/site/index
+2011/04/09 02:32:21 [error] [exception.CException] exception 'CException' with message 'Property "SiteController._hasScripts" is not defined.' in C:\wamp2\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp2\framework\web\CClientScript.php(478): CComponent->__set('_hasScripts', true)
+#1 C:\wamp2\www\protected\views\site\index.php(4): CClientScript->registerScriptFile('/js/sliders.js', 1)
+#2 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#3 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', NULL, true)
+#4 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', NULL, true)
+#5 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('index', NULL, true)
+#6 C:\wamp2\www\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#8 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#9 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#10 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('index')
+#12 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/index')
+#13 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 C:\wamp2\www\index.php(13): CApplication->run()
+#15 {main} REQUEST_URI=/index.php/site/index
+2011/04/09 05:29:12 [error] [php] Undefined variable: content (C:\wamp2\www\protected\views\site\index.php:100)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/index
+in C:\wamp2\www\protected\views\site\index.php (100)
+in C:\wamp2\www\protected\controllers\SiteController.php (32)
+in C:\wamp2\www\index.php (13)
+2011/04/09 06:22:51 [error] [php] Undefined variable: model (C:\wamp2\www\protected\views\site\login.php:21)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\views\site\index.php(100): SiteController->render()
+#3 C:\wamp2\framework\web\CBaseController.php(119): require()
+#4 C:\wamp2\framework\web\CBaseController.php(88): SiteController->renderInternal()
+#5 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#6 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#7 C:\wamp2\www\protected\controllers\SiteController.php(32): SiteController->render()
+#8 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#9 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#11 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#12 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#13 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#14 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#15 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\login.php (21)
+in C:\wamp2\www\protected\views\site\index.php (100)
+in C:\wamp2\www\protected\controllers\SiteController.php (32)
+2011/04/09 06:26:50 [error] [php] Undefined variable: model (C:\wamp2\www\protected\views\site\login.php:21)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\www\protected\views\site\index.php(100): SiteController->renderPartial()
+#2 C:\wamp2\framework\web\CBaseController.php(119): require()
+#3 C:\wamp2\framework\web\CBaseController.php(88): SiteController->renderInternal()
+#4 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#5 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#6 C:\wamp2\www\protected\controllers\SiteController.php(32): SiteController->render()
+#7 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#8 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#9 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#10 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#11 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#12 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#13 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\login.php (21)
+in C:\wamp2\www\protected\views\site\index.php (100)
+in C:\wamp2\www\protected\controllers\SiteController.php (32)
+2011/04/10 03:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in C:\wamp2\framework\web\actions\CViewAction.php:110
+Stack trace:
+#0 C:\wamp2\framework\web\actions\CViewAction.php(121): CViewAction->resolveView('about')
+#1 C:\wamp2\framework\web\CController.php(300): CViewAction->run()
+#2 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CViewAction))
+#3 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CViewAction), Array)
+#4 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('page')
+#5 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/page')
+#6 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#7 C:\wamp2\www\index.php(13): CApplication->run()
+#8 {main} REQUEST_URI=/index.php/site/page?view=about
+2011/04/10 03:07:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/about
+2011/04/10 03:16:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/about
+2011/04/10 03:23:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/about
+2011/04/10 03:30:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/about
+2011/04/10 03:30:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/about
+2011/04/10 06:13:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('AboutController')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/AboutController
+2011/04/10 06:13:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('AboutController')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/AboutController
+2011/04/10 06:14:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('AboutController')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/AboutController
+2011/04/10 06:15:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('AboutController')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/AboutController
+2011/04/10 06:17:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('AboutController')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/AboutController
+2011/04/10 06:19:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('AboutController')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/AboutController
+2011/04/10 06:21:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('AboutController')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/AboutController
+2011/04/10 06:25:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('About')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/About
+2011/04/10 06:28:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('About')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/About
+2011/04/10 06:33:55 [error] [exception.CException] exception 'CException' with message 'Filter "inlineFilterName" is invalid. Controller "AboutController" does have the filter method "filterinlineFilterName".' in C:\wamp2\framework\web\filters\CInlineFilter.php:47
+Stack trace:
+#0 C:\wamp2\framework\web\filters\CFilterChain.php(72): CInlineFilter::create(Object(AboutController), 'inlineFilterNam...')
+#1 C:\wamp2\framework\web\CController.php(283): CFilterChain::create(Object(AboutController), Object(CInlineAction), Array)
+#2 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#4 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about/about')
+#5 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#6 C:\wamp2\www\index.php(13): CApplication->run()
+#7 {main} REQUEST_URI=/index.php/about/about
+2011/04/10 06:34:24 [error] [exception.CException] exception 'CException' with message 'Filter "inlineFilterName" is invalid. Controller "AboutController" does have the filter method "filterinlineFilterName".' in C:\wamp2\framework\web\filters\CInlineFilter.php:47
+Stack trace:
+#0 C:\wamp2\framework\web\filters\CFilterChain.php(72): CInlineFilter::create(Object(AboutController), 'inlineFilterNam...')
+#1 C:\wamp2\framework\web\CController.php(283): CFilterChain::create(Object(AboutController), Object(CInlineAction), Array)
+#2 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#4 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about/about')
+#5 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#6 C:\wamp2\www\index.php(13): CApplication->run()
+#7 {main} REQUEST_URI=/index.php/about/about
+2011/04/10 06:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about.php".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about.php')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about.php')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about/about.php')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/about/about.php
+2011/04/10 06:41:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/about
+2011/04/10 06:41:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about.php".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about.php')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about.php')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/about.php')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/about.php
+2011/04/10 06:41:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/about
+2011/04/10 06:43:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('About')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/About
+2011/04/10 06:49:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/about
+2011/04/10 06:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/about
+2011/04/10 06:57:52 [error] [exception.CException] exception 'CException' with message 'AboutController cannot find the requested view "home/rightColumn".' in C:\wamp2\framework\web\CController.php:842
+Stack trace:
+#0 C:\wamp2\www\protected\views\about\index.php(64): CController->renderPartial('home/rightColum...')
+#1 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#2 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', NULL, true)
+#3 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', NULL, true)
+#4 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('index', NULL, true)
+#5 C:\wamp2\www\protected\controllers\AboutController.php(7): CController->render('index')
+#6 C:\wamp2\framework\web\actions\CInlineAction.php(57): AboutController->actionIndex()
+#7 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#8 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#9 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#11 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about')
+#12 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#13 C:\wamp2\www\index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/index.php/about
+2011/04/10 06:59:18 [error] [exception.CException] exception 'CException' with message 'AboutController cannot find the requested view "../home/rightColumn".' in C:\wamp2\framework\web\CController.php:842
+Stack trace:
+#0 C:\wamp2\www\protected\views\about\index.php(64): CController->renderPartial('../home/rightCo...')
+#1 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#2 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', NULL, true)
+#3 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', NULL, true)
+#4 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('index', NULL, true)
+#5 C:\wamp2\www\protected\controllers\AboutController.php(7): CController->render('index')
+#6 C:\wamp2\framework\web\actions\CInlineAction.php(57): AboutController->actionIndex()
+#7 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#8 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#9 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#11 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about')
+#12 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#13 C:\wamp2\www\index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/index.php/about
+2011/04/10 06:59:44 [error] [exception.CException] exception 'CException' with message 'AboutController cannot find the requested view "//home/rightColumn".' in C:\wamp2\framework\web\CController.php:842
+Stack trace:
+#0 C:\wamp2\www\protected\views\about\index.php(64): CController->renderPartial('//home/rightCol...')
+#1 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#2 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', NULL, true)
+#3 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', NULL, true)
+#4 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('index', NULL, true)
+#5 C:\wamp2\www\protected\controllers\AboutController.php(7): CController->render('index')
+#6 C:\wamp2\framework\web\actions\CInlineAction.php(57): AboutController->actionIndex()
+#7 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#8 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#9 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#11 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about')
+#12 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#13 C:\wamp2\www\index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/index.php/about
+2011/04/10 07:00:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/about
+2011/04/10 07:00:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('site/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/site/about
+2011/04/10 07:00:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/about/about
+2011/04/10 07:01:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/about/about
+2011/04/10 20:16:28 [error] [exception.CException] exception 'CException' with message 'AboutController cannot find the requested view "home".' in C:\wamp2\framework\web\CController.php:842
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('home', NULL, true)
+#1 C:\wamp2\www\protected\controllers\AboutController.php(7): CController->render('home')
+#2 C:\wamp2\framework\web\actions\CInlineAction.php(57): AboutController->actionIndex()
+#3 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#4 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('index')
+#7 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about/index')
+#8 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#9 C:\wamp2\www\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/index.php/about/index
+2011/04/10 21:18:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/about/about
+2011/04/10 21:18:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('about')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('about')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('about/about')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/about/about
+2011/04/10 21:51:13 [error] [php] Undefined variable: icon (C:\wamp2\www\protected\views\about\_gmap.php:16)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): AboutController->renderFile()
+#1 C:\wamp2\www\protected\views\about\about.php(24): AboutController->renderPartial()
+#2 C:\wamp2\framework\web\CBaseController.php(119): require()
+#3 C:\wamp2\framework\web\CBaseController.php(88): AboutController->renderInternal()
+#4 C:\wamp2\framework\web\CController.php(833): AboutController->renderFile()
+#5 C:\wamp2\framework\web\CController.php(746): AboutController->renderPartial()
+#6 C:\wamp2\www\protected\controllers\AboutController.php(7): AboutController->render()
+#7 C:\wamp2\framework\web\actions\CInlineAction.php(57): AboutController->actionIndex()
+#8 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#9 C:\wamp2\framework\web\CController.php(278): AboutController->runAction()
+#10 C:\wamp2\framework\web\CController.php(257): AboutController->runActionWithFilters()
+#11 C:\wamp2\framework\web\CWebApplication.php(324): AboutController->run()
+#12 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#13 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/about
+in C:\wamp2\www\protected\views\about\_gmap.php (16)
+in C:\wamp2\www\protected\views\about\about.php (24)
+in C:\wamp2\www\protected\controllers\AboutController.php (7)
+2011/04/10 21:51:56 [error] [php] Undefined variable: icon (C:\wamp2\www\protected\views\about\_gmap.php:16)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): AboutController->renderFile()
+#1 C:\wamp2\www\protected\views\about\about.php(24): AboutController->renderPartial()
+#2 C:\wamp2\framework\web\CBaseController.php(119): require()
+#3 C:\wamp2\framework\web\CBaseController.php(88): AboutController->renderInternal()
+#4 C:\wamp2\framework\web\CController.php(833): AboutController->renderFile()
+#5 C:\wamp2\framework\web\CController.php(746): AboutController->renderPartial()
+#6 C:\wamp2\www\protected\controllers\AboutController.php(7): AboutController->render()
+#7 C:\wamp2\framework\web\actions\CInlineAction.php(57): AboutController->actionIndex()
+#8 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#9 C:\wamp2\framework\web\CController.php(278): AboutController->runAction()
+#10 C:\wamp2\framework\web\CController.php(257): AboutController->runActionWithFilters()
+#11 C:\wamp2\framework\web\CWebApplication.php(324): AboutController->run()
+#12 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#13 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/about
+in C:\wamp2\www\protected\views\about\_gmap.php (16)
+in C:\wamp2\www\protected\views\about\about.php (24)
+in C:\wamp2\www\protected\controllers\AboutController.php (7)
+2011/04/10 21:52:19 [error] [php] Undefined variable: icon (C:\wamp2\www\protected\views\about\_gmap.php:16)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): AboutController->renderFile()
+#1 C:\wamp2\www\protected\views\about\about.php(24): AboutController->renderPartial()
+#2 C:\wamp2\framework\web\CBaseController.php(119): require()
+#3 C:\wamp2\framework\web\CBaseController.php(88): AboutController->renderInternal()
+#4 C:\wamp2\framework\web\CController.php(833): AboutController->renderFile()
+#5 C:\wamp2\framework\web\CController.php(746): AboutController->renderPartial()
+#6 C:\wamp2\www\protected\controllers\AboutController.php(7): AboutController->render()
+#7 C:\wamp2\framework\web\actions\CInlineAction.php(57): AboutController->actionIndex()
+#8 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#9 C:\wamp2\framework\web\CController.php(278): AboutController->runAction()
+#10 C:\wamp2\framework\web\CController.php(257): AboutController->runActionWithFilters()
+#11 C:\wamp2\framework\web\CWebApplication.php(324): AboutController->run()
+#12 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#13 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/about
+in C:\wamp2\www\protected\views\about\_gmap.php (16)
+in C:\wamp2\www\protected\views\about\about.php (24)
+in C:\wamp2\www\protected\controllers\AboutController.php (7)
+2011/04/10 21:52:32 [error] [php] Undefined variable: icon (C:\wamp2\www\protected\views\about\_gmap.php:21)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): AboutController->renderFile()
+#1 C:\wamp2\www\protected\views\about\about.php(24): AboutController->renderPartial()
+#2 C:\wamp2\framework\web\CBaseController.php(119): require()
+#3 C:\wamp2\framework\web\CBaseController.php(88): AboutController->renderInternal()
+#4 C:\wamp2\framework\web\CController.php(833): AboutController->renderFile()
+#5 C:\wamp2\framework\web\CController.php(746): AboutController->renderPartial()
+#6 C:\wamp2\www\protected\controllers\AboutController.php(7): AboutController->render()
+#7 C:\wamp2\framework\web\actions\CInlineAction.php(57): AboutController->actionIndex()
+#8 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#9 C:\wamp2\framework\web\CController.php(278): AboutController->runAction()
+#10 C:\wamp2\framework\web\CController.php(257): AboutController->runActionWithFilters()
+#11 C:\wamp2\framework\web\CWebApplication.php(324): AboutController->run()
+#12 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#13 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/about
+in C:\wamp2\www\protected\views\about\_gmap.php (21)
+in C:\wamp2\www\protected\views\about\about.php (24)
+in C:\wamp2\www\protected\controllers\AboutController.php (7)
+2011/04/10 21:54:35 [error] [php] Undefined variable: icon (C:\wamp2\www\protected\views\about\_gmap.php:16)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): AboutController->renderFile()
+#1 C:\wamp2\www\protected\views\about\about.php(24): AboutController->renderPartial()
+#2 C:\wamp2\framework\web\CBaseController.php(119): require()
+#3 C:\wamp2\framework\web\CBaseController.php(88): AboutController->renderInternal()
+#4 C:\wamp2\framework\web\CController.php(833): AboutController->renderFile()
+#5 C:\wamp2\framework\web\CController.php(746): AboutController->renderPartial()
+#6 C:\wamp2\www\protected\controllers\AboutController.php(7): AboutController->render()
+#7 C:\wamp2\framework\web\actions\CInlineAction.php(57): AboutController->actionIndex()
+#8 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#9 C:\wamp2\framework\web\CController.php(278): AboutController->runAction()
+#10 C:\wamp2\framework\web\CController.php(257): AboutController->runActionWithFilters()
+#11 C:\wamp2\framework\web\CWebApplication.php(324): AboutController->run()
+#12 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#13 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/about
+in C:\wamp2\www\protected\views\about\_gmap.php (16)
+in C:\wamp2\www\protected\views\about\about.php (24)
+in C:\wamp2\www\protected\controllers\AboutController.php (7)
+2011/04/10 21:55:33 [error] [php] Undefined variable: info_window_a (C:\wamp2\www\protected\views\about\_gmap.php:17)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): AboutController->renderFile()
+#1 C:\wamp2\www\protected\views\about\about.php(24): AboutController->renderPartial()
+#2 C:\wamp2\framework\web\CBaseController.php(119): require()
+#3 C:\wamp2\framework\web\CBaseController.php(88): AboutController->renderInternal()
+#4 C:\wamp2\framework\web\CController.php(833): AboutController->renderFile()
+#5 C:\wamp2\framework\web\CController.php(746): AboutController->renderPartial()
+#6 C:\wamp2\www\protected\controllers\AboutController.php(7): AboutController->render()
+#7 C:\wamp2\framework\web\actions\CInlineAction.php(57): AboutController->actionIndex()
+#8 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#9 C:\wamp2\framework\web\CController.php(278): AboutController->runAction()
+#10 C:\wamp2\framework\web\CController.php(257): AboutController->runActionWithFilters()
+#11 C:\wamp2\framework\web\CWebApplication.php(324): AboutController->run()
+#12 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#13 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/about
+in C:\wamp2\www\protected\views\about\_gmap.php (17)
+in C:\wamp2\www\protected\views\about\about.php (24)
+in C:\wamp2\www\protected\controllers\AboutController.php (7)
+2011/04/10 23:46:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'bluesheep'' in C:\wamp2\framework\db\CDbConnection.php:269
+Stack trace:
+#0 C:\wamp2\framework\db\CDbConnection.php(242): CDbConnection->open()
+#1 C:\wamp2\framework\db\CDbConnection.php(221): CDbConnection->setActive(true)
+#2 C:\wamp2\framework\base\CModule.php(372): CDbConnection->init()
+#3 C:\wamp2\framework\base\CModule.php(86): CModule->getComponent('db')
+#4 C:\wamp2\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\wamp2\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\wamp2\framework\gii\CCodeGenerator.php(149): CFormModel->__construct()
+#7 C:\wamp2\framework\gii\CCodeGenerator.php(61): CCodeGenerator->prepare()
+#8 C:\wamp2\framework\web\actions\CInlineAction.php(57): CCodeGenerator->actionIndex()
+#9 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#11 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#13 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('gii/crud')
+#14 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#15 C:\wamp2\www\index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/index.php/gii/crud
+2011/04/10 23:47:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'bluesheep'' in C:\wamp2\framework\db\CDbConnection.php:269
+Stack trace:
+#0 C:\wamp2\framework\db\CDbConnection.php(242): CDbConnection->open()
+#1 C:\wamp2\framework\db\CDbConnection.php(221): CDbConnection->setActive(true)
+#2 C:\wamp2\framework\base\CModule.php(372): CDbConnection->init()
+#3 C:\wamp2\framework\base\CModule.php(86): CModule->getComponent('db')
+#4 C:\wamp2\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\wamp2\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\wamp2\framework\gii\CCodeGenerator.php(149): CFormModel->__construct()
+#7 C:\wamp2\framework\gii\CCodeGenerator.php(61): CCodeGenerator->prepare()
+#8 C:\wamp2\framework\web\actions\CInlineAction.php(57): CCodeGenerator->actionIndex()
+#9 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#11 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#13 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('gii/crud')
+#14 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#15 C:\wamp2\www\index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/index.php/gii/crud
+2011/04/10 23:49:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'bluesheep'' in C:\wamp2\framework\db\CDbConnection.php:269
+Stack trace:
+#0 C:\wamp2\framework\db\CDbConnection.php(242): CDbConnection->open()
+#1 C:\wamp2\framework\db\CDbConnection.php(221): CDbConnection->setActive(true)
+#2 C:\wamp2\framework\base\CModule.php(372): CDbConnection->init()
+#3 C:\wamp2\framework\base\CModule.php(86): CModule->getComponent('db')
+#4 C:\wamp2\framework\gii\generators\crud\CrudCode.php(44): CModule->__get('db')
+#5 C:\wamp2\framework\web\CFormModel.php(40): CrudCode->init()
+#6 C:\wamp2\framework\gii\CCodeGenerator.php(149): CFormModel->__construct()
+#7 C:\wamp2\framework\gii\CCodeGenerator.php(61): CCodeGenerator->prepare()
+#8 C:\wamp2\framework\web\actions\CInlineAction.php(57): CCodeGenerator->actionIndex()
+#9 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#10 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#11 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#13 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('gii/crud')
+#14 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#15 C:\wamp2\www\index.php(13): CApplication->run()
+#16 {main} REQUEST_URI=/index.php/gii/crud
+2011/04/11 00:29:59 [error] [php] Undefined variable: tinymce (C:\wamp2\www\protected\extensions\tinymce\ETinyMce.php:812)
+Stack trace:
+#0 C:\wamp2\www\protected\views\faq\_form.php(3): FaqController->widget()
+#1 C:\wamp2\framework\web\CBaseController.php(119): require()
+#2 C:\wamp2\framework\web\CBaseController.php(88): FaqController->renderInternal()
+#3 C:\wamp2\framework\web\CController.php(833): FaqController->renderFile()
+#4 C:\wamp2\www\protected\views\faq\create.php(15): FaqController->renderPartial()
+#5 C:\wamp2\framework\web\CBaseController.php(119): require()
+#6 C:\wamp2\framework\web\CBaseController.php(88): FaqController->renderInternal()
+#7 C:\wamp2\framework\web\CController.php(833): FaqController->renderFile()
+#8 C:\wamp2\framework\web\CController.php(746): FaqController->renderPartial()
+#9 C:\wamp2\www\protected\controllers\FaqController.php(78): FaqController->render()
+#10 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#11 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#12 C:\wamp2\framework\web\filters\CFilterChain.php(133): FaqController->runAction()
+#13 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\wamp2\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#15 C:\wamp2\framework\web\filters\CInlineFilter.php(59): FaqController->filterAccessControl()
+#16 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#18 C:\wamp2\framework\web\CController.php(257): FaqController->runActionWithFilters()
+#19 C:\wamp2\framework\web\CWebApplication.php(324): FaqController->run()
+#20 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#21 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#22 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/faq/create
+in C:\wamp2\www\protected\extensions\tinymce\ETinyMce.php (812)
+in C:\wamp2\www\protected\views\faq\_form.php (3)
+in C:\wamp2\www\protected\views\faq\create.php (15)
+2011/04/11 00:30:38 [error] [php] Undefined variable: tinymce (C:\wamp2\www\protected\extensions\tinymce\ETinyMce.php:812)
+Stack trace:
+#0 C:\wamp2\www\protected\views\faq\_form.php(3): FaqController->widget()
+#1 C:\wamp2\framework\web\CBaseController.php(119): require()
+#2 C:\wamp2\framework\web\CBaseController.php(88): FaqController->renderInternal()
+#3 C:\wamp2\framework\web\CController.php(833): FaqController->renderFile()
+#4 C:\wamp2\www\protected\views\faq\create.php(15): FaqController->renderPartial()
+#5 C:\wamp2\framework\web\CBaseController.php(119): require()
+#6 C:\wamp2\framework\web\CBaseController.php(88): FaqController->renderInternal()
+#7 C:\wamp2\framework\web\CController.php(833): FaqController->renderFile()
+#8 C:\wamp2\framework\web\CController.php(746): FaqController->renderPartial()
+#9 C:\wamp2\www\protected\controllers\FaqController.php(78): FaqController->render()
+#10 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#11 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#12 C:\wamp2\framework\web\filters\CFilterChain.php(133): FaqController->runAction()
+#13 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\wamp2\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#15 C:\wamp2\framework\web\filters\CInlineFilter.php(59): FaqController->filterAccessControl()
+#16 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#18 C:\wamp2\framework\web\CController.php(257): FaqController->runActionWithFilters()
+#19 C:\wamp2\framework\web\CWebApplication.php(324): FaqController->run()
+#20 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#21 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#22 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/faq/create
+in C:\wamp2\www\protected\extensions\tinymce\ETinyMce.php (812)
+in C:\wamp2\www\protected\views\faq\_form.php (3)
+in C:\wamp2\www\protected\views\faq\create.php (15)
+2011/04/11 00:35:11 [error] [php] Undefined variable: tinymce (C:\wamp2\www\protected\extensions\tinymce\ETinyMce.php:812)
+Stack trace:
+#0 C:\wamp2\www\protected\views\faq\_form.php(8): FaqController->widget()
+#1 C:\wamp2\framework\web\CBaseController.php(119): require()
+#2 C:\wamp2\framework\web\CBaseController.php(88): FaqController->renderInternal()
+#3 C:\wamp2\framework\web\CController.php(833): FaqController->renderFile()
+#4 C:\wamp2\www\protected\views\faq\create.php(15): FaqController->renderPartial()
+#5 C:\wamp2\framework\web\CBaseController.php(119): require()
+#6 C:\wamp2\framework\web\CBaseController.php(88): FaqController->renderInternal()
+#7 C:\wamp2\framework\web\CController.php(833): FaqController->renderFile()
+#8 C:\wamp2\framework\web\CController.php(746): FaqController->renderPartial()
+#9 C:\wamp2\www\protected\controllers\FaqController.php(78): FaqController->render()
+#10 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#11 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#12 C:\wamp2\framework\web\filters\CFilterChain.php(133): FaqController->runAction()
+#13 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\wamp2\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#15 C:\wamp2\framework\web\filters\CInlineFilter.php(59): FaqController->filterAccessControl()
+#16 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#18 C:\wamp2\framework\web\CController.php(257): FaqController->runActionWithFilters()
+#19 C:\wamp2\framework\web\CWebApplication.php(324): FaqController->run()
+#20 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#21 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#22 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/faq/create
+in C:\wamp2\www\protected\extensions\tinymce\ETinyMce.php (812)
+in C:\wamp2\www\protected\views\faq\_form.php (8)
+in C:\wamp2\www\protected\views\faq\create.php (15)
+2011/04/11 00:41:08 [error] [php] Undefined variable: post (C:\wamp2\www\protected\views\faq\_form.php:18)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): FaqController->renderFile()
+#1 C:\wamp2\www\protected\views\faq\create.php(15): FaqController->renderPartial()
+#2 C:\wamp2\framework\web\CBaseController.php(119): require()
+#3 C:\wamp2\framework\web\CBaseController.php(88): FaqController->renderInternal()
+#4 C:\wamp2\framework\web\CController.php(833): FaqController->renderFile()
+#5 C:\wamp2\framework\web\CController.php(746): FaqController->renderPartial()
+#6 C:\wamp2\www\protected\controllers\FaqController.php(78): FaqController->render()
+#7 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#8 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#9 C:\wamp2\framework\web\filters\CFilterChain.php(133): FaqController->runAction()
+#10 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\wamp2\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#12 C:\wamp2\framework\web\filters\CInlineFilter.php(59): FaqController->filterAccessControl()
+#13 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#15 C:\wamp2\framework\web\CController.php(257): FaqController->runActionWithFilters()
+#16 C:\wamp2\framework\web\CWebApplication.php(324): FaqController->run()
+#17 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#18 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#19 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/faq/create
+in C:\wamp2\www\protected\views\faq\_form.php (18)
+in C:\wamp2\www\protected\views\faq\create.php (15)
+in C:\wamp2\www\protected\controllers\FaqController.php (78)
+2011/04/11 00:41:42 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.editor.editor" is invalid. Make sure it points to an existing PHP file.' in C:\wamp2\framework\YiiBase.php:310
+Stack trace:
+#0 C:\wamp2\framework\web\CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 C:\wamp2\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(FaqController), 'application.ext...', Array)
+#2 C:\wamp2\framework\web\CBaseController.php(165): CBaseController->createWidget('application.ext...', Array)
+#3 C:\wamp2\www\protected\views\faq\_form.php(19): CBaseController->widget('application.ext...', Array)
+#4 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#5 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#6 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#7 C:\wamp2\www\protected\views\faq\create.php(15): CController->renderPartial('_form', Array)
+#8 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#9 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#10 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#11 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#12 C:\wamp2\www\protected\controllers\FaqController.php(78): CController->render('create', Array)
+#13 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#14 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#15 C:\wamp2\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 C:\wamp2\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp2\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#21 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('create')
+#23 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/create')
+#24 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#25 C:\wamp2\www\index.php(13): CApplication->run()
+#26 {main} REQUEST_URI=/index.php/faq/create
+2011/04/11 00:42:17 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.editor.editor" is invalid. Make sure it points to an existing PHP file.' in C:\wamp2\framework\YiiBase.php:310
+Stack trace:
+#0 C:\wamp2\framework\web\CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 C:\wamp2\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(FaqController), 'application.ext...', Array)
+#2 C:\wamp2\framework\web\CBaseController.php(165): CBaseController->createWidget('application.ext...', Array)
+#3 C:\wamp2\www\protected\views\faq\_form.php(5): CBaseController->widget('application.ext...', Array)
+#4 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#5 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#6 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#7 C:\wamp2\www\protected\views\faq\create.php(15): CController->renderPartial('_form', Array)
+#8 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#9 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#10 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#11 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#12 C:\wamp2\www\protected\controllers\FaqController.php(78): CController->render('create', Array)
+#13 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#14 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#15 C:\wamp2\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 C:\wamp2\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp2\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#21 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('create')
+#23 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/create')
+#24 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#25 C:\wamp2\www\index.php(13): CApplication->run()
+#26 {main} REQUEST_URI=/index.php/faq/create
+2011/04/11 00:42:34 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.editor.editor" is invalid. Make sure it points to an existing PHP file.' in C:\wamp2\framework\YiiBase.php:310
+Stack trace:
+#0 C:\wamp2\framework\web\CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 C:\wamp2\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(FaqController), 'application.ext...', Array)
+#2 C:\wamp2\framework\web\CBaseController.php(165): CBaseController->createWidget('application.ext...', Array)
+#3 C:\wamp2\www\protected\views\faq\_form.php(12): CBaseController->widget('application.ext...', Array)
+#4 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#5 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#6 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#7 C:\wamp2\www\protected\views\faq\create.php(15): CController->renderPartial('_form', Array)
+#8 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#9 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#10 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#11 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#12 C:\wamp2\www\protected\controllers\FaqController.php(78): CController->render('create', Array)
+#13 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#14 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#15 C:\wamp2\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 C:\wamp2\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp2\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#21 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('create')
+#23 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/create')
+#24 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#25 C:\wamp2\www\index.php(13): CApplication->run()
+#26 {main} REQUEST_URI=/index.php/faq/create
+2011/04/11 00:56:33 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.editor.editor" is invalid. Make sure it points to an existing PHP file.' in C:\wamp2\framework\YiiBase.php:310
+Stack trace:
+#0 C:\wamp2\framework\web\CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 C:\wamp2\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(FaqController), 'application.ext...', Array)
+#2 C:\wamp2\framework\web\CBaseController.php(165): CBaseController->createWidget('application.ext...', Array)
+#3 C:\wamp2\www\protected\views\faq\_form.php(4): CBaseController->widget('application.ext...', Array)
+#4 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#5 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#6 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#7 C:\wamp2\www\protected\views\faq\create.php(15): CController->renderPartial('_form', Array)
+#8 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#9 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#10 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#11 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#12 C:\wamp2\www\protected\controllers\FaqController.php(79): CController->render('create', Array)
+#13 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#14 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#15 C:\wamp2\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 C:\wamp2\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp2\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#21 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('create')
+#23 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/create')
+#24 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#25 C:\wamp2\www\index.php(13): CApplication->run()
+#26 {main} REQUEST_URI=/index.php/faq/create
+2011/04/11 00:57:47 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.editor.editor" is invalid. Make sure it points to an existing PHP file.' in C:\wamp2\framework\YiiBase.php:310
+Stack trace:
+#0 C:\wamp2\framework\web\CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 C:\wamp2\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(FaqController), 'application.ext...', Array)
+#2 C:\wamp2\framework\web\CBaseController.php(165): CBaseController->createWidget('application.ext...', Array)
+#3 C:\wamp2\www\protected\views\faq\_form.php(4): CBaseController->widget('application.ext...', Array)
+#4 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#5 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#6 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#7 C:\wamp2\www\protected\views\faq\create.php(15): CController->renderPartial('_form', Array)
+#8 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#9 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#10 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#11 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#12 C:\wamp2\www\protected\controllers\FaqController.php(79): CController->render('create', Array)
+#13 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#14 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#15 C:\wamp2\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 C:\wamp2\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp2\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#21 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('create')
+#23 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/create')
+#24 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#25 C:\wamp2\www\index.php(13): CApplication->run()
+#26 {main} REQUEST_URI=/index.php/faq/create
+2011/04/11 00:57:53 [error] [exception.CException] exception 'CException' with message 'Alias "application.extensions.editor.editor" is invalid. Make sure it points to an existing PHP file.' in C:\wamp2\framework\YiiBase.php:310
+Stack trace:
+#0 C:\wamp2\framework\web\CWidgetFactory.php(147): YiiBase::import('application.ext...', true)
+#1 C:\wamp2\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(FaqController), 'application.ext...', Array)
+#2 C:\wamp2\framework\web\CBaseController.php(165): CBaseController->createWidget('application.ext...', Array)
+#3 C:\wamp2\www\protected\views\faq\_form.php(4): CBaseController->widget('application.ext...', Array)
+#4 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#5 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#6 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#7 C:\wamp2\www\protected\views\faq\create.php(15): CController->renderPartial('_form', Array)
+#8 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#9 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#10 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#11 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#12 C:\wamp2\www\protected\controllers\FaqController.php(79): CController->render('create', Array)
+#13 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#14 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#15 C:\wamp2\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 C:\wamp2\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp2\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#21 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('create')
+#23 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/create')
+#24 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#25 C:\wamp2\www\index.php(13): CApplication->run()
+#26 {main} REQUEST_URI=/index.php/faq/create
+2011/04/11 00:59:34 [error] [exception.CException] exception 'CException' with message 'Alias "extensions.tinymce.*" is invalid. Make sure it points to an existing directory or file.' in C:\wamp2\framework\YiiBase.php:335
+Stack trace:
+#0 C:\wamp2\framework\web\CWidgetFactory.php(147): YiiBase::import('extensions.tiny...', true)
+#1 C:\wamp2\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(FaqController), 'extensions.tiny...', Array)
+#2 C:\wamp2\framework\web\CBaseController.php(165): CBaseController->createWidget('extensions.tiny...', Array)
+#3 C:\wamp2\www\protected\views\faq\_form.php(4): CBaseController->widget('extensions.tiny...', Array)
+#4 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#5 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#6 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#7 C:\wamp2\www\protected\views\faq\create.php(15): CController->renderPartial('_form', Array)
+#8 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#9 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#10 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#11 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#12 C:\wamp2\www\protected\controllers\FaqController.php(79): CController->render('create', Array)
+#13 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#14 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#15 C:\wamp2\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 C:\wamp2\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp2\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#21 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('create')
+#23 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/create')
+#24 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#25 C:\wamp2\www\index.php(13): CApplication->run()
+#26 {main} REQUEST_URI=/index.php/faq/create
+2011/04/11 01:01:35 [error] [exception.CException] exception 'CException' with message 'Alias "ext.tinymce.ETinyMce.php" is invalid. Make sure it points to an existing PHP file.' in C:\wamp2\framework\YiiBase.php:310
+Stack trace:
+#0 C:\wamp2\framework\web\CWidgetFactory.php(147): YiiBase::import('ext.tinymce.ETi...', true)
+#1 C:\wamp2\framework\web\CBaseController.php(139): CWidgetFactory->createWidget(Object(FaqController), 'ext.tinymce.ETi...', Array)
+#2 C:\wamp2\framework\web\CBaseController.php(165): CBaseController->createWidget('ext.tinymce.ETi...', Array)
+#3 C:\wamp2\www\protected\views\faq\_form.php(4): CBaseController->widget('ext.tinymce.ETi...', Array)
+#4 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#5 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#6 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#7 C:\wamp2\www\protected\views\faq\create.php(15): CController->renderPartial('_form', Array)
+#8 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#9 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#10 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#11 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#12 C:\wamp2\www\protected\controllers\FaqController.php(79): CController->render('create', Array)
+#13 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#14 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#15 C:\wamp2\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#17 C:\wamp2\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp2\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#21 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('create')
+#23 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/create')
+#24 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#25 C:\wamp2\www\index.php(13): CApplication->run()
+#26 {main} REQUEST_URI=/index.php/faq/create
+2011/04/11 01:02:40 [error] [exception.CException] exception 'CException' with message 'CWebApplication does not have a method named "params".' in C:\wamp2\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp2\www\protected\views\faq\_form.php(1): CComponent->__call('params', Array)
+#1 C:\wamp2\www\protected\views\faq\_form.php(1): CWebApplication->params('editor')
+#2 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#3 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#4 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#5 C:\wamp2\www\protected\views\faq\create.php(15): CController->renderPartial('_form', Array)
+#6 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#7 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#8 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#9 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#10 C:\wamp2\www\protected\controllers\FaqController.php(79): CController->render('create', Array)
+#11 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#12 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#13 C:\wamp2\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\wamp2\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp2\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#19 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('create')
+#21 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/create')
+#22 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#23 C:\wamp2\www\index.php(13): CApplication->run()
+#24 {main} REQUEST_URI=/index.php/faq/create
+2011/04/11 01:03:39 [error] [exception.CException] exception 'CException' with message 'CWebApplication does not have a method named "params".' in C:\wamp2\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp2\www\protected\views\faq\_form.php(1): CComponent->__call('params', Array)
+#1 C:\wamp2\www\protected\views\faq\_form.php(1): CWebApplication->params('editor')
+#2 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#3 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#4 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#5 C:\wamp2\www\protected\views\faq\create.php(15): CController->renderPartial('_form', Array)
+#6 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#7 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#8 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#9 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#10 C:\wamp2\www\protected\controllers\FaqController.php(79): CController->render('create', Array)
+#11 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#12 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#13 C:\wamp2\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\wamp2\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp2\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#19 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('create')
+#21 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/create')
+#22 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#23 C:\wamp2\www\index.php(13): CApplication->run()
+#24 {main} REQUEST_URI=/index.php/faq/create
+2011/04/11 01:20:28 [error] [exception.CException] exception 'CException' with message 'Property "Faq.Faq" is not defined.' in C:\wamp2\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp2\framework\db\ar\CActiveRecord.php(110): CComponent->__get('Faq')
+#1 C:\wamp2\framework\web\helpers\CHtml.php(1995): CActiveRecord->__get('Faq')
+#2 C:\wamp2\framework\web\helpers\CHtml.php(1236): CHtml::resolveValue(Object(Faq), 'Faq[answer]')
+#3 C:\wamp2\www\protected\extensions\xheditor\JXHEditor.php(44): CHtml::activeTextArea(Object(Faq), 'Faq[answer]', Array)
+#4 C:\wamp2\framework\web\CBaseController.php(166): JXHEditor->run()
+#5 C:\wamp2\www\protected\views\faq\_form.php(7): CBaseController->widget('application.ext...', Array)
+#6 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#7 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#8 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#9 C:\wamp2\www\protected\views\faq\create.php(15): CController->renderPartial('_form', Array)
+#10 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#11 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#12 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#13 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#14 C:\wamp2\www\protected\controllers\FaqController.php(79): CController->render('create', Array)
+#15 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#16 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#17 C:\wamp2\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#19 C:\wamp2\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp2\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#23 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('create')
+#25 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/create')
+#26 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#27 C:\wamp2\www\index.php(13): CApplication->run()
+#28 {main} REQUEST_URI=/index.php/faq/create
+2011/04/11 01:20:52 [error] [exception.CException] exception 'CException' with message 'Property "Faq.content" is not defined.' in C:\wamp2\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp2\framework\db\ar\CActiveRecord.php(110): CComponent->__get('content')
+#1 C:\wamp2\framework\web\helpers\CHtml.php(2006): CActiveRecord->__get('content')
+#2 C:\wamp2\framework\web\helpers\CHtml.php(1236): CHtml::resolveValue(Object(Faq), 'content')
+#3 C:\wamp2\www\protected\extensions\xheditor\JXHEditor.php(44): CHtml::activeTextArea(Object(Faq), 'content', Array)
+#4 C:\wamp2\framework\web\CBaseController.php(166): JXHEditor->run()
+#5 C:\wamp2\www\protected\views\faq\_form.php(7): CBaseController->widget('application.ext...', Array)
+#6 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#7 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#8 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#9 C:\wamp2\www\protected\views\faq\create.php(15): CController->renderPartial('_form', Array)
+#10 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#11 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#12 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#13 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('create', Array, true)
+#14 C:\wamp2\www\protected\controllers\FaqController.php(79): CController->render('create', Array)
+#15 C:\wamp2\framework\web\actions\CInlineAction.php(57): FaqController->actionCreate()
+#16 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#17 C:\wamp2\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#19 C:\wamp2\framework\web\CController.php(1084): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp2\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#23 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('create')
+#25 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/create')
+#26 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#27 C:\wamp2\www\index.php(13): CApplication->run()
+#28 {main} REQUEST_URI=/index.php/faq/create
+2011/04/11 01:47:08 [error] [php] Undefined variable: model1 (C:\wamp2\www\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#1 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#2 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#3 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#5 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/index
+in C:\wamp2\www\protected\controllers\SiteController.php (35)
+in C:\wamp2\www\index.php (13)
+2011/04/11 01:47:38 [error] [php] Undefined variable: model1 (C:\wamp2\www\protected\controllers\SiteController.php:34)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#1 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#2 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#3 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#5 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/index
+in C:\wamp2\www\protected\controllers\SiteController.php (34)
+in C:\wamp2\www\index.php (13)
+2011/04/11 02:05:39 [error] [php] Undefined variable: model (C:\wamp2\www\protected\controllers\SiteController.php:34)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#1 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#2 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#3 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#5 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/index
+in C:\wamp2\www\protected\controllers\SiteController.php (34)
+in C:\wamp2\www\index.php (13)
+2011/04/11 02:05:48 [error] [php] Undefined variable: model (C:\wamp2\www\protected\controllers\SiteController.php:34)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#1 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#2 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#3 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#5 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\controllers\SiteController.php (34)
+in C:\wamp2\www\index.php (13)
+2011/04/11 02:08:35 [error] [php] Undefined variable: dataProvider (C:\wamp2\www\protected\views\site\index.php:8)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(36): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\index.php (8)
+in C:\wamp2\www\protected\controllers\SiteController.php (36)
+in C:\wamp2\www\index.php (13)
+2011/04/11 02:10:15 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.dataProvider" is not defined.' in C:\wamp2\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp2\www\protected\views\site\index.php(8): CComponent->__get('dataProvider')
+#1 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#2 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#3 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#4 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('index', Array, true)
+#5 C:\wamp2\www\protected\controllers\SiteController.php(36): CController->render('index', Array)
+#6 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#7 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#8 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#9 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#11 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#12 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#13 C:\wamp2\www\index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/index.php
+2011/04/11 02:11:50 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.dataProvider" is not defined.' in C:\wamp2\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp2\www\protected\views\site\index.php(8): CComponent->__get('dataProvider')
+#1 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#2 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#3 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#4 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('index', Array, true)
+#5 C:\wamp2\www\protected\controllers\SiteController.php(36): CController->render('index', Array)
+#6 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#7 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#8 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#9 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#11 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#12 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#13 C:\wamp2\www\index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/index.php
+2011/04/11 02:13:58 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.dataProvider" is not defined.' in C:\wamp2\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp2\www\protected\views\site\index.php(8): CComponent->__get('dataProvider')
+#1 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#2 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#3 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#4 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('index', Array, true)
+#5 C:\wamp2\www\protected\controllers\SiteController.php(36): CController->render('index', Array)
+#6 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#7 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#8 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#9 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#11 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#12 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#13 C:\wamp2\www\index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/index.php
+2011/04/11 02:14:36 [error] [php] Object of class CActiveDataProvider could not be converted to string (C:\wamp2\www\protected\views\site\index.php:8)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(36): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\index.php (8)
+in C:\wamp2\www\protected\controllers\SiteController.php (36)
+in C:\wamp2\www\index.php (13)
+2011/04/11 02:56:23 [error] [php] Undefined variable: model (C:\wamp2\www\protected\views\site\index.php:9)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(38): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\index.php (9)
+in C:\wamp2\www\protected\controllers\SiteController.php (38)
+in C:\wamp2\www\index.php (13)
+2011/04/11 03:02:57 [error] [php] Object of class Faq could not be converted to string (C:\wamp2\www\protected\views\site\index.php:8)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(38): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\index.php (8)
+in C:\wamp2\www\protected\controllers\SiteController.php (38)
+in C:\wamp2\www\index.php (13)
+2011/04/11 03:04:52 [error] [php] Undefined index: answer (C:\wamp2\www\protected\views\site\index.php:9)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(38): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\index.php (9)
+in C:\wamp2\www\protected\controllers\SiteController.php (38)
+in C:\wamp2\www\index.php (13)
+2011/04/11 03:05:51 [error] [exception.CException] exception 'CException' with message 'Property "Faq.name" is not defined.' in C:\wamp2\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp2\framework\db\ar\CActiveRecord.php(110): CComponent->__get('name')
+#1 C:\wamp2\www\protected\views\site\index.php(9): CActiveRecord->__get('name')
+#2 C:\wamp2\framework\web\CBaseController.php(119): require('C:\wamp2\www\pr...')
+#3 C:\wamp2\framework\web\CBaseController.php(88): CBaseController->renderInternal('C:\wamp2\www\pr...', Array, true)
+#4 C:\wamp2\framework\web\CController.php(833): CBaseController->renderFile('C:\wamp2\www\pr...', Array, true)
+#5 C:\wamp2\framework\web\CController.php(746): CController->renderPartial('index', Array, true)
+#6 C:\wamp2\www\protected\controllers\SiteController.php(38): CController->render('index', Array)
+#7 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#8 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#9 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#10 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#12 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#13 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#14 C:\wamp2\www\index.php(13): CApplication->run()
+#15 {main} REQUEST_URI=/index.php
+2011/04/11 03:33:59 [error] [php] Undefined variable: command (C:\wamp2\www\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#1 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#2 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#3 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#5 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\controllers\SiteController.php (35)
+in C:\wamp2\www\index.php (13)
+2011/04/11 03:34:57 [error] [php] Undefined variable: connection (C:\wamp2\www\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#1 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#2 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#3 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#5 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\controllers\SiteController.php (35)
+in C:\wamp2\www\index.php (13)
+2011/04/11 03:35:49 [error] [php] Undefined variable: sql (C:\wamp2\www\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#1 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#2 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#3 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#4 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#5 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\controllers\SiteController.php (35)
+in C:\wamp2\www\index.php (13)
+2011/04/11 03:36:56 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.getActive" is not defined.' in C:\wamp2\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp2\framework\base\CComponent.php(264): CComponent->__get('getActive')
+#1 C:\wamp2\framework\db\CDbConnection.php(353): CComponent->__call('getActive', Array)
+#2 C:\wamp2\framework\db\CDbConnection.php(353): SiteController->getActive()
+#3 C:\wamp2\www\protected\controllers\SiteController.php(35): CDbConnection->createCommand('SELECT question...')
+#4 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#5 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#6 C:\wamp2\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#7 C:\wamp2\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('')
+#9 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('')
+#10 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#11 C:\wamp2\www\index.php(13): CApplication->run()
+#12 {main} REQUEST_URI=/index.php
+2011/04/11 03:43:36 [error] [php] Undefined variable: quesiton (C:\wamp2\www\protected\views\site\index.php:9)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(42): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\index.php (9)
+in C:\wamp2\www\protected\controllers\SiteController.php (42)
+in C:\wamp2\www\index.php (13)
+2011/04/11 03:45:52 [error] [php] Undefined offset: 0 (C:\wamp2\www\protected\views\site\index.php:10)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(42): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\index.php (10)
+in C:\wamp2\www\protected\controllers\SiteController.php (42)
+in C:\wamp2\www\index.php (13)
+2011/04/11 04:28:00 [error] [php] Undefined index: row (C:\wamp2\www\protected\views\site\index.php:10)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(42): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\index.php (10)
+in C:\wamp2\www\protected\controllers\SiteController.php (42)
+in C:\wamp2\www\index.php (13)
+2011/04/11 04:29:07 [error] [php] Undefined offset: 3 (C:\wamp2\www\protected\views\site\index.php:10)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(42): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\index.php (10)
+in C:\wamp2\www\protected\controllers\SiteController.php (42)
+in C:\wamp2\www\index.php (13)
+2011/04/11 04:30:31 [error] [php] Trying to get property of non-object (C:\wamp2\www\protected\views\site\index.php:10)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(42): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\index.php (10)
+in C:\wamp2\www\protected\controllers\SiteController.php (42)
+in C:\wamp2\www\index.php (13)
+2011/04/11 04:31:00 [error] [php] Undefined offset: 0 (C:\wamp2\www\protected\views\site\index.php:10)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(42): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\index.php (10)
+in C:\wamp2\www\protected\controllers\SiteController.php (42)
+in C:\wamp2\www\index.php (13)
+2011/04/11 04:31:58 [error] [php] Use of undefined constant question - assumed 'question' (C:\wamp2\www\protected\views\site\index.php:11)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(833): SiteController->renderFile()
+#1 C:\wamp2\framework\web\CController.php(746): SiteController->renderPartial()
+#2 C:\wamp2\www\protected\controllers\SiteController.php(42): SiteController->render()
+#3 C:\wamp2\framework\web\actions\CInlineAction.php(57): SiteController->actionIndex()
+#4 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#5 C:\wamp2\framework\web\CController.php(278): SiteController->runAction()
+#6 C:\wamp2\framework\web\CController.php(257): SiteController->runActionWithFilters()
+#7 C:\wamp2\framework\web\CWebApplication.php(324): SiteController->run()
+#8 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#9 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#10 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\wamp2\www\protected\views\site\index.php (11)
+in C:\wamp2\www\protected\controllers\SiteController.php (42)
+in C:\wamp2\www\index.php (13)
+2011/04/11 04:39:10 [error] [php] Missing argument 1 for CDbConnection::createCommand(), called in C:\wamp2\www\protected\controllers\FaqController.php on line 131 and defined (C:\wamp2\framework\db\CDbConnection.php:351)
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(300): CInlineAction->run()
+#1 C:\wamp2\framework\web\filters\CFilterChain.php(133): FaqController->runAction()
+#2 C:\wamp2\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp2\framework\web\CController.php(1084): CAccessControlFilter->filter()
+#4 C:\wamp2\framework\web\filters\CInlineFilter.php(59): FaqController->filterAccessControl()
+#5 C:\wamp2\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 C:\wamp2\framework\web\CController.php(283): CFilterChain->run()
+#7 C:\wamp2\framework\web\CController.php(257): FaqController->runActionWithFilters()
+#8 C:\wamp2\framework\web\CWebApplication.php(324): FaqController->run()
+#9 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController()
+#10 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#11 C:\wamp2\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/faq
+in C:\wamp2\www\protected\controllers\FaqController.php (131)
+in C:\wamp2\www\index.php (13)
+2011/04/11 04:39:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indes.php".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('indes.php')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('indes.php')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/indes.php')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/faq/indes.php
+2011/04/11 04:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in C:\wamp2\framework\web\CController.php:444
+Stack trace:
+#0 C:\wamp2\framework\web\CController.php(262): CController->missingAction('index.php')
+#1 C:\wamp2\framework\web\CWebApplication.php(324): CController->run('index.php')
+#2 C:\wamp2\framework\web\CWebApplication.php(121): CWebApplication->runController('faq/index.php')
+#3 C:\wamp2\framework\base\CApplication.php(135): CWebApplication->processRequest()
+#4 C:\wamp2\www\index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/index.php/faq/index.php
