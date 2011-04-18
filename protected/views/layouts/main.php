@@ -43,7 +43,7 @@
             <?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'home', 'url'=>array('/site/index')),
-				array('label'=>'about', 'url'=>array('/about/index')),
+				array('label'=>'about', 'url'=>array('/site/about')),
 				array('label'=>'services', 'url'=>array('/site/services')),
 				array('label'=>'blog', 'url'=>array('/site/blog')),
 				array('label'=>'faq', 'url'=>array('/site/faq')),

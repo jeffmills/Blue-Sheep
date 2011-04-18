@@ -34,7 +34,7 @@ $cs->registerScriptFile($js_url, 1);
                         <ul>
                              <!-- quesitons grabbed from the faq table -->
                              <?php   foreach($question as $q){ ?>
-                                <li><a href="#"><?php echo $q['question']; ?></a></li>
+                                <li><a href="http://localhost/index.php/site/faq?answerid=<?php echo $q['id']; ?>#answer<?php echo $q['id'];?>"><?php echo $q['question']; ?></a></li>
                              <?php } ?>
 
                         </ul>

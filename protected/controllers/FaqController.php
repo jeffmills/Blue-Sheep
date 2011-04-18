@@ -53,7 +53,6 @@ class FaqController extends Controller
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
-    
 	}
 
 	/**
@@ -128,13 +127,9 @@ class FaqController extends Controller
 	 */
 	public function actionIndex()
 	{
-                $question = Yii::app()->db->createCommand()
-                ->select('question')
-                ->from('faq')
-                ->queryAll();
-		
+		$dataProvider=new CActiveDataProvider('Faq');
 		$this->render('index',array(
-                        'question'=>$question,
+			'dataProvider'=>$dataProvider,
 		));
 	}
 

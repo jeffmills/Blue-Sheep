@@ -216,11 +216,15 @@ h1.brands, #catalog_cta {
     margin-right: 0;
 }
 
+/*-------------------------------------------------------------- right_column ----------------------------------------------------*/
+
 #right_column {
     float: right;
     width: 300px;
     padding-top: 26px;
 }
+
+/*-------------------------------------------------------------- Monthly Special Widget ----------------------------------------------------*/
 
 #monthly_special {
     display: inline-block;
@@ -274,6 +278,8 @@ h1.brands, #catalog_cta {
     color: #ff9900;
 }
 
+/*--------------------------------------------------------------Quote Widget----------------------------------------------------*/
+
 #quote_module h1 {
     background: url(../images/quote_header.png) no-repeat;
     padding-top: 15px;
@@ -305,6 +311,156 @@ h1.brands, #catalog_cta {
     margin-top: 20px;
     float: right;
 }
+
+/*-------------------------------------------------------------- Faq ----------------------------------------------------*/
+
+.faq_section {
+    border: 1px solid #dfdfdf;
+    margin-bottom: 5px;
+}
+
+.faq_question {
+    font-size: 16px;
+    padding: 8px 0;
+    border-top: none;
+    cursor: pointer;
+    background: #f6f6f6;
+}
+
+.first_faq_question {
+    background: #f6f6f6;
+}
+
+.faq_question:hover {
+    background: #f0f0f0;
+}
+
+.faq_arrow {
+    background: url(../images/faq_arrow_sprite.png) no-repeat;
+    height: 11px;
+    width: 11px;
+    float: left;
+    margin: 5px;
+    margin-right: 8px;
+}
+
+.faq_active {
+    background-position: bottom;
+}
+
+.faq_answer {
+    padding: 12px;
+    display: none;
+}
+
+.answer_active {
+    display: block;
+}
+
+/*-------------------------------------------------------------- Contact ----------------------------------------------------*/
+
+.contact .form {
+    margin-bottom: 30px;
+}
+
+.contact label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact .row {
+    margin-bottom: 15px;
+}
+
+.contact #yw1 {
+    display: block;
+}
+
+a#yt0 {
+    font-size: 12px;
+    float: none;
+    display: block;
+    margin-bottom: 2px;
+    color: #3299bb;
+}
+
+.contact .hint {
+    font-size: 12px;
+}
+
+#ContactForm_verifyCode {
+    background: url(../images/captcha_background.png) no-repeat;
+    margin: 10px 0;
+}
+
+.contact input {
+    border: none;
+    padding-left: 5px;
+    font-size: 13px;
+    padding-top:2px;
+    height: 22px;
+    width: 294px;
+}
+
+#left_column .note {
+    font-size: 11px;
+}
+
+#ContactForm_phone {
+    background: url(../images/phone_background.png) no-repeat;
+}
+
+#ContactForm_email {
+    background: url(../images/email_background.png) no-repeat;
+}
+
+#ContactForm_name {
+    background: url(../images/name_background.png) no-repeat;
+}
+
+#ContactForm_body {
+    width: 540px;
+    height: 188px;
+}
+
+.buttons input {
+    width: 78px;
+    height: 29px;
+    background: #3299bb;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding:0;
+}
+
+.contact li {
+    font-size: 20px;
+    width: 245px;
+    height: 35px;
+    padding-left: 60px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+.contact ul {
+    margin-bottom: 45px;
+}
+
+#contact_phone {
+    background: url(../images/phone_icon.png) no-repeat;
+}
+
+#contact_email {
+    background: url(../images/email_icon.png) no-repeat;
+}
+
+#contact_address {
+    background: url(../images/map_icon.png) no-repeat;
+}
+
+/*--------------------------------------------------------------Footer----------------------------------------------------*/
 
 #footer_container {
     height: 204px;

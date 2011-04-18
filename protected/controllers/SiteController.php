@@ -30,17 +30,29 @@ class SiteController extends Controller
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		//$this->render('index');
-                $dataProvider=new CActiveDataProvider('Faq');
-                $model=Faq::model()->findALL();
                 $connection=Yii::app()->db;
-                $command=$connection->createCommand('SELECT question FROM Faq;');
+                $command=$connection->createCommand('SELECT question, id FROM Faq;');
                 $dataReader=$command->query();
                 $this->render('index',array(
-                    'dataProvider'=>$dataProvider,
-                    'Faq'=>$model,
                     'question'=>$dataReader,
                     ));
 	}
+
+        public function actionFaq(){
+
+                $connection=Yii::app()->db;
+                $command=$connection->createCommand('SELECT question, answer, id FROM Faq;');
+                $dataReader=$command->query();
+                $this->render('Faq',array(
+                    'faqs'=>$dataReader,
+                    ));
+
+        }
+
+        public function actionAbout()
+        {
+            $this->render('About');
+        }
 
 	/**
 	 * This is the action to handle external exceptions.
@@ -62,13 +74,20 @@ class SiteController extends Controller
 	public function actionContact()
 	{
 		$model=new ContactForm;
+
+                // if it is ajax validation request
+		if(isset($_POST['ajax']) && $_POST['ajax']==='contact-form')
+		{
+			echo CActiveForm::validate($model);
+			Yii::app()->end();
+		}
 		if(isset($_POST['ContactForm']))
 		{
 			$model->attributes=$_POST['ContactForm'];
 			if($model->validate())
 			{
 				$headers="From: {$model->email}\r\nReply-To: {$model->email}";
-				mail(Yii::app()->params['adminEmail'],$model->subject,$model->body,$headers);
+				mail(Yii::app()->params['adminEmail'],$model->name,$model->body,$headers);
 				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
 				$this->refresh();
 			}

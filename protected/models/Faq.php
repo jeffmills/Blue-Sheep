@@ -88,12 +88,4 @@ class Faq extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
-
-        public function getQuestions()
-        {
-            $post=Post::model()->find();
-
-            return $post;
-        }
-        
 }
